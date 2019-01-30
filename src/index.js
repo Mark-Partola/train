@@ -4,6 +4,6 @@ import './assets/styles/base.css';
 import AppRoot from './components/app-root/app-root';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<AppRoot />, document.getElementById('root'));
+ReactDOM.render(<AppRoot />, document.querySelector('.root'));
 
 serviceWorker.unregister();
